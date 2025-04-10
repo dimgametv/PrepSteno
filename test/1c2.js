@@ -211,17 +211,14 @@ comparedText += '</div>';
                                             numFullDiff++;
                                         }
                                     } else {
-   											 // If checkbox4 is checked
    											 if (true) {
-       										 comparedText += '<span style="background-color: green;">' + 												wordA + '</span> ';
-       										 wordAIndex++;
-       										 wordBIndex++;
-       										 numFullDiff++;
-       										 comparedText += '<span style="background-color: red; text-decoration: line-through; text-decoration-color: black;">' + wordB + '</span> ';
-      										  wordAIndex++;
-      										  wordBIndex++;
-       										  numFullDiff++;
-  											  } else { // If checkbox4 is not checked
+    comparedText += '<span style="background-color: green;">' + wordA + '</span> ';
+    wordAIndex++;
+    numFullDiff++;
+    comparedText += '<span style="background-color: red; text-decoration: line-through; text-decoration-color: black;">' + wordB + '</span> ';
+    wordBIndex++;
+    numFullDiff++;
+} else { // If checkbox4 is not checked
                                      	      comparedText += '<span style="background-color: green;">' + 												  wordA + '</span> ';		
                                               comparedText += '<span style="background-color: red; text-decoration: line-through; text-decoration-color: black;;">' + wordB + '</span> ';
                                       		  wordAIndex++;
