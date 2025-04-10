@@ -240,12 +240,12 @@ comparedText += '</div>';
                 '<h2>Analysis:</h2>' +
                 '<table>' +
                 '<tr>' +
-                '<th style="border: 2px solid black;">Total Words in Actual Transcription</th>' +
-                '<th style="border: 2px solid black;">Total Words in Your Transcription</th>' +
-                '<th style="border: 2px solid black;">Number of Half Mistakes</th>' +
-                '<th style="border: 2px solid black;">Number of Full Mistakes</th>' +
-                '<th style="border: 2px solid black;">Total Keystrokes in your Transcription</th>' +
-                '<th style="border: 2px solid black;">Total Percentage of Mistakes (%)</th>' +
+                '<th style="border: 2px solid black;">Total Words</th>' +
+                '<th style="border: 2px solid black;">Typed Words</th>' +
+                '<th style="border: 2px solid black;">Half Mistakes</th>' +
+                '<th style="border: 2px solid black;">Full Mistakes</th>' +
+                '<th style="border: 2px solid black;">Typing Speed</th>' +
+                '<th style="border: 2px solid black;">Total Mistakes (%)</th>' +
                 
                 '</tr>' +
                 '<tr>' +
